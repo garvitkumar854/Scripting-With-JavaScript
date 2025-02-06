@@ -31,10 +31,9 @@ Press F12 (or right-click → "Inspect").
 Go to the Console tab.
 Type your JavaScript code and press Enter.
 
-Example:
-<br>
+```Example:
 console.log("Hello, World!");
-</>
+```
 
 ## 2. In an HTML File
 How to Execute:
@@ -74,12 +73,4 @@ function helloWorld() {
 }
 helloWorld();
 
-<div style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">
-  <pre><code>
-  // Example of a colorful code block with a gray background
-  function example() {
-      console.log("This is colorful!");
-  }
-  example();
-  </code></pre>
-</div>
+
