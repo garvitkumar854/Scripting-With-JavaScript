@@ -31,7 +31,7 @@ Press F12 (or right-click → "Inspect").
 Go to the Console tab.
 Type your JavaScript code and press Enter.
 
-```
+```javascript
 // Example:
 console.log("Hello, World!");
 ```
@@ -42,7 +42,7 @@ Create an HTML file (e.g., index.html).
 Write JavaScript inside <script> tags.
 Open the HTML file in a browser.
 
-```
+```javascript
 // Example:
 <html>
 <!DOCTYPE html>
@@ -62,8 +62,7 @@ Install Node.js.
 Create a .js file (e.g., app.js).
 Open terminal/command prompt.
 Run node app.js.
-```Example (app.js):
+```javascript
+Example (app.js):
 console.log("Hello from Node.js!");
 ```
-
-
