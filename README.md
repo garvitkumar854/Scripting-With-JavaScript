@@ -20,22 +20,22 @@ This repository is intended to track and showcase my learning progress with **Ja
 
 ## 🤝 Contributing
 
-# Contributing to Scripting with JavaScript
+### Contributing to Scripting with JavaScript
 
 We love your interest in contributing to **Scripting with JavaScript**! 🎉 Before you get started, please take a moment to read through the following guidelines to ensure that your contributions are aligned with our project's goals.
 
-## How You Can Contribute
+### How You Can Contribute
 
 There are many ways you can contribute to this project:
 
-### 1. Reporting Issues 📝
+#### 1. Reporting Issues 📝
 If you find a bug or have a suggestion for an improvement, please [open an issue](https://github.com/GarvitKumar854/Scripting-With-JavaScript/issues). Make sure to include the following in your issue:
 - A clear description of the problem or suggestion.
 - Steps to reproduce the issue (if applicable).
 - Expected and actual behavior (if applicable).
 - Any error messages, if relevant.
 
-### 2. Submitting Code 🖥️
+#### 2. Submitting Code 🖥️
 If you want to contribute code, follow these steps:
 
 1. **Fork the repository**  
