@@ -42,7 +42,7 @@ Create an HTML file (e.g., index.html).
 Write JavaScript inside <script> tags.
 Open the HTML file in a browser.
 
-```javascript
+```html
 // Example:
 <html>
 <!DOCTYPE html>
