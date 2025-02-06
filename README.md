@@ -8,7 +8,7 @@ Welcome to my **JavaScript Learning Repository**! This is where I document my jo
 
 1. [Introduction](/Introduction/main.md)
 5. [Contributing](#contributing)
-6. [License](#license)
+6. [License](/LICENSE)
 
 ---
 
