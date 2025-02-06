@@ -7,7 +7,7 @@ Welcome to my **JavaScript Learning Repository**! This is where I document my jo
 ## 📚 Table of Contents
 
 1. [Introduction](/Introduction/main.md)
-5. [Contributing](#contributing)
+5. [Contributing](#Contributing)
 6. [License](/LICENSE)
 
 ---
