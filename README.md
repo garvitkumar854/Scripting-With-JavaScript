@@ -45,8 +45,7 @@ If you want to contribute code, follow these steps:
    After forking, clone the repository to your local machine:
    ```bash
    git clone https://github.com/your-username/Scripting-With-JavaScript.git
-
-
+   ```
 ---
 
 ## 📄 License
