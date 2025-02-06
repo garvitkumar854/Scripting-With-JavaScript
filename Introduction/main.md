@@ -73,3 +73,13 @@ function helloWorld() {
     console.log("Hello, World!");
 }
 helloWorld();
+
+<div style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">
+  <pre><code>
+  // Example of a colorful code block with a gray background
+  function example() {
+      console.log("This is colorful!");
+  }
+  example();
+  </code></pre>
+</div>
