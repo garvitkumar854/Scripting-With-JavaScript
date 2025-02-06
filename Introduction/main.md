@@ -63,6 +63,6 @@ Create a .js file (e.g., app.js).
 Open terminal/command prompt.
 Run node app.js.
 ```javascript
-Example (app.js):
+// Example (app.js):
 console.log("Hello from Node.js!");
 ```
