@@ -7,7 +7,7 @@ JavaScript has two main types of values: **Primitives** and **Objects**.
 ### 🟢 **Primitives (Immutable, Stored by Value)**  
 Primitives are simple **immutable** data types that store only a **single value**.  
 
-#### ✅ **Primitive Data Types:**  
+#### ✅ **There are Seven Primitive Data Types:**  
 | Type         | Example |
 |-------------|---------|
 | **String**  | `"Hello"` |
