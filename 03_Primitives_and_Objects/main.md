@@ -70,6 +70,6 @@ console.log(greet());      // Output: Hello, world!
 | **Example** | `let x = "Hello";` | `let obj = {name: "Garvit"};` |
 | **Memory Usage** | Fixed Size | Dynamic |
 
-🚀 **Summary:**  
+### 🚀 **Summary:**  
 ✅ Use **primitives** for simple values (strings, numbers, etc.).  
 ✅ Use **objects** when you need complex data structures (arrays, functions, etc.).  
