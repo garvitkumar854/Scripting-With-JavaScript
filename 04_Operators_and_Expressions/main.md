@@ -113,6 +113,13 @@ let age = 20;
 let access = (age >= 18) ? "Allowed" : "Denied";
 console.log(access);  // Output: Allowed
 ```
+## 📌 What are Expressions ?
+An expression is a combination of variables, values, and operators that produces a result.
+### 🔸 Types of Expressions:
+- 1️⃣ Arithmetic Expression → `let total = (5 + 3) * 2;`
+- 2️⃣ String Expression → `let greet = "Hello" + " World!";`
+- 3️⃣ Logical Expression → `let isAdult = (age >= 18) && (age < 60);`
+- 4️⃣ Function Expression → `let sum = function(a, b) { return a + b; };`
 
 ## Comments in JavaScript
 Comments in JavaScript are used to add notes, explanations, or disable parts of the code without affecting its execution. They are ignored by the JavaScript engine.
