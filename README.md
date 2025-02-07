@@ -10,6 +10,7 @@ Welcome to my **JavaScript Learning Repository**! This is where I document my jo
 2. [Variables in JavaScript](/02_Variables/main.md)
 3. [Primitives and Objects in JavaScript](/03_Primitives_and_Objects/main.md)
 4. [Operators and Expressions in JavaScript](/04_Operators_and_Expressions/main.md)
+5. [Conditional Expressions](/05_Conditional_Expressions/main.md)
 99. [License](/LICENSE)
 ### Practice Sets
 1. [Practice Set 1](/Practice%20Sets/Set%201/main.md)
