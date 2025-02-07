@@ -7,6 +7,8 @@ Welcome to my **JavaScript Learning Repository**! This is where I document my jo
 ## 📚 Table of Contents
 
 1. [Introduction to JavaScript](/01_Introduction%20to%20JavaScript/main.md)
+2. [Variables in JavaScript](/02_Variables/main.md)
+3. [Primitives and Objects in JavaScript]
 99. [License](/LICENSE)
 
 ---
