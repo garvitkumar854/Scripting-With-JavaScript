@@ -113,3 +113,19 @@ let age = 20;
 let access = (age >= 18) ? "Allowed" : "Denied";
 console.log(access);  // Output: Allowed
 ```
+
+## Comments in JavaScript
+Comments in JavaScript are used to add notes, explanations, or disable parts of the code without affecting its execution. They are ignored by the JavaScript engine.
+
+## Types of Comments
+- ### Single Line Comment: Used for short, one-line comments.
+    ```js
+    // This is a Single Line Comment
+    ```
+- ### Multi-line Comment: Used for longer comments spanning multiple lines.
+    ```js
+    /* This is a 
+    Multi Line 
+    Comment */
+    ```
+
