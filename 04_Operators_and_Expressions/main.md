@@ -46,3 +46,26 @@ x += 5;  // x = x + 5 → x = 15
 x *= 2;  // x = x * 2 → x = 30
 console.log(x); // Output: 30
 ```
+
+## 📌 Comparison Operators in JavaScript  
+
+Comparison operators are used to compare two values and return a boolean (`true` or `false`).
+
+| Operator | Description                         | Example        | Result |
+|----------|-------------------------------------|---------------|--------|
+| `==`     | Equal to (checks value only)       | `5 == "5"`    | `true` |
+| `===`    | Strict equal to (checks value & type) | `5 === "5"`   | `false` |
+| `!=`     | Not equal to (checks value only)   | `10 != 5`     | `true` |
+| `!==`    | Strict not equal to (checks value & type) | `10 !== "10"` | `true` |
+| `>`      | Greater than                       | `8 > 5`       | `true` |
+| `<`      | Less than                          | `3 < 7`       | `true` |
+| `>=`     | Greater than or equal to           | `6 >= 6`      | `true` |
+| `<=`     | Less than or equal to              | `4 <= 3`      | `false` |
+
+### 🔹 Example Code:
+```js
+console.log(10 > 5);   // true
+console.log(5 == "5"); // true (loose comparison)
+console.log(5 === "5");// false (strict comparison)
+console.log(7 !== "7");// true (strict not equal)
+
