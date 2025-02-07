@@ -38,16 +38,40 @@ console.log(PI);  // Output: 3.14159
 ✅ Use `let` for values that will change.  
 ❌ Avoid `var` (due to scope and hoisting issues).  
 
-### 🔹 **Data Types in Variables**  
-JavaScript variables can store different types of data:
+## 📝 Rules for Choosing Variable Names in JavaScript  
+
+When naming variables in JavaScript, follow these rules:  
+
+### ✅ **Allowed:**  
+✔ Variable names can contain **letters, digits, underscores (`_`) and dollar signs (`$`)**.  
+✔ Variable names **must begin with a letter, `_`, or `$`** (not a number).  
+✔ JavaScript is **case-sensitive** (`name` and `Name` are different).  
 
 ```js
-let str = "Hello";  // String  
-let num = 42;  // Number  
-let isJSFun = true;  // Boolean  
-let arr = [1, 2, 3];  // Array  
-let obj = { name: "Garvit", age: 20 };  // Object  
-let unknown;  // Undefined  
+let userName = "Garvit";  // ✅ Valid  
+let _count = 10;          // ✅ Valid  
+let $price = 99.99;       // ✅ Valid  
+```
+
+### ❌ **Not Allowed:**  
+✖ Variable names **cannot start with a number**.  
+✖ Reserved **keywords** cannot be used as variable names.  
+✖ No spaces or special characters (except `_` and `$`).  
+
+```js
+let 1name = "Error";  // ❌ Invalid  
+let var = "Wrong";    // ❌ Invalid (reserved keyword)  
+let user name = "No"; // ❌ Invalid (spaces not allowed)  
+```
+
+### 🌟 **Best Practices:**  
+✅ Use **camelCase** (`firstName`, `totalAmount`).  
+✅ Make variable names **meaningful & readable**.  
+✅ Use **`const` for constants**, `let` for changeable values, and avoid `var`.  
+
+```js
+const MAX_USERS = 1000;  // ✅ Constant (all uppercase)  
+let userAge = 25;        // ✅ Meaningful name  
 ```
 
 ### 🚀 **Summary Table**  
