@@ -7,5 +7,4 @@ const a = {
     isPrincipal: false
 }
 a = "Harry"         // Gives Error
-a['friend'] = "Manish"      // You can add another Key : Pair in Object.
 ```
