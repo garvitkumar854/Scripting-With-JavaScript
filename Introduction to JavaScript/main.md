@@ -15,8 +15,9 @@ ECMAScript (ES) is the standard that defines the rules and guidelines for script
 🤔 How is ECMAScript Related to JavaScript?
 JavaScript is an implementation of ECMAScript.
 Other languages like JScript and ActionScript are also based on ECMAScript.
-<br>🧩 What Does ECMAScript Define?
-<br>ECMAScript outlines things like: - Syntax: How code should be written (e.g., keywords, structure).
+<br>🧩 What Does ECMAScript Define? <br>
+ECMAScript outlines things like:
+- Syntax: How code should be written (e.g., keywords, structure).
 - Types: How different data types work (e.g., strings, numbers).
 - Functions & Objects: How functions and objects should behave.
 - Execution: The rules for how code should be run.
