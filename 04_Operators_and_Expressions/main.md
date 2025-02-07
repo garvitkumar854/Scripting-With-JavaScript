@@ -47,7 +47,7 @@ x *= 2;  // x = x * 2 → x = 30
 console.log(x); // Output: 30
 ```
 
-## 📌 Comparison Operators in JavaScript  
+### 📌 Comparison Operators in JavaScript  
 
 Comparison operators are used to compare two values and return a boolean (`true` or `false`).
 
@@ -68,4 +68,48 @@ console.log(10 > 5);   // true
 console.log(5 == "5"); // true (loose comparison)
 console.log(5 === "5");// false (strict comparison)
 console.log(7 !== "7");// true (strict not equal)
+```
 
+### 🔹 Logical Operators  
+Logical operators are used to combine multiple conditions and return `true` or `false`.
+
+| Operator | Description                          | Example              | Result  |
+|----------|--------------------------------------|----------------------|---------|
+| `&&`     | Logical AND (both must be true)     | `(5 > 3) && (8 > 5)` | `true`  |
+| `||`     | Logical OR (at least one is true)   | `(5 < 3) || (8 > 5)` | `true`  |
+| `!`      | Logical NOT (reverses boolean value)| `!(5 > 3)`           | `false` |
+
+### 🔹 Example Code:
+```js
+console.log(true && false);  // Output: false
+console.log(true || false);  // Output: true
+console.log(!true);          // Output: false
+```
+
+### 🔹 Bitwise Operators  
+Bitwise operators perform operations at the **binary level**.
+
+| Operator | Description               | Example (x = 5, y = 3) | Result  |
+|----------|---------------------------|------------------------|---------|
+| `&`      | Bitwise AND                | `5 & 3`  (0101 & 0011) | `1`     |
+| `|`      | Bitwise OR                 | `5 | 3`  (0101 | 0011) | `7`     |
+| `^`      | Bitwise XOR (exclusive OR) | `5 ^ 3`  (0101 ^ 0011) | `6`     |
+| `~`      | Bitwise NOT (inverts bits) | `~5` (inverts `0101`)  | `-6`    |
+| `<<`     | Left shift                 | `5 << 1` (0101 → 1010) | `10`    |
+| `>>`     | Right shift                | `5 >> 1` (0101 → 0010) | `2`     |
+
+### 🔹 Example Code:
+```js
+console.log(5 & 3);  // Output: 1
+console.log(5 | 3);  // Output: 7
+```
+
+### 🔹 Ternary Operator
+The **ternary operator** is a shorthand for `if...else` conditions.  
+
+### 🔹 Example Code:
+```js
+let age = 20;
+let access = (age >= 18) ? "Allowed" : "Denied";
+console.log(access);  // Output: Allowed
+```
