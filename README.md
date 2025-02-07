@@ -119,7 +119,6 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 
 Feel free to follow me on:
 
-- [Twitter](https://twitter.com/yourhandle)
 - [LinkedIn](https://linkedin.com/in/yourprofile)
 
 ---

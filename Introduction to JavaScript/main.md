@@ -4,9 +4,9 @@ Programming is the process of writing instructions (code) for a computer to exec
 
 # Why Do We Need Programming
 Programming is used to create software, websites, apps, games, and even control robots! It allows us to:
-✅ Automate tasks
-✅ Solve problems efficiently
-✅ Build interactive applications
+-✅ Automate tasks
+-✅ Solve problems efficiently
+-✅ Build interactive applications
 
 # ECMAScript
 ECMAScript: The Standard Behind JavaScript
