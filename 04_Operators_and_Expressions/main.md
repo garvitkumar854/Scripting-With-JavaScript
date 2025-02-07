@@ -75,9 +75,9 @@ Logical operators are used to combine multiple conditions and return `true` or `
 
 | Operator | Description                          | Example              | Result  |
 |----------|--------------------------------------|----------------------|---------|
-| `&&`     | Logical AND (both must be true)     | `(5 > 3) && (8 > 5)` | `true`  |
-| `\|\|`     | Logical OR (at least one is true)   | `(5 < 3) || (8 > 5)` | `true`  |
-| `!`      | Logical NOT (reverses boolean value)| `!(5 > 3)`           | `false` |
+| `&&`     | Logical AND (both must be true)      | `(5 > 3) && (8 > 5)` | `true`  |
+| `\|\|`   | Logical OR (at least one is true)    | `(5 < 3) \|\| (8 > 5)` | `true`  |
+| `!`      | Logical NOT (reverses boolean value) | `!(5 > 3)`           | `false` |
 
 ### 🔹 Example Code:
 ```js
