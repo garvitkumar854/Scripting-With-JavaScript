@@ -6,14 +6,14 @@ Welcome to my **JavaScript Learning Repository**! This is where I document my jo
 
 ## 📚 Table of Contents
 ### Notes
-1. [Introduction to JavaScript](/01_Introduction%20to%20JavaScript/main.md)
-2. [Variables in JavaScript](/02_Variables/main.md)
-3. [Primitives and Objects in JavaScript](/03_Primitives_and_Objects/main.md)
-4. [Operators and Expressions in JavaScript](/04_Operators_and_Expressions/main.md)
-5. [Conditional Expressions](/05_Conditional_Expressions/main.md)
+1. [Introduction to JavaScript](/01_Introduction%20to%20JavaScript/README.md)
+2. [Variables in JavaScript](/02_Variables/README.md)
+3. [Primitives and Objects in JavaScript](/03_Primitives_and_Objects/README.md)
+4. [Operators and Expressions in JavaScript](/04_Operators_and_Expressions/README.md)
+5. [Conditional Expressions](/05_Conditional_Expressions/README.md)
 ### Practice Sets
-1. [Practice Set 1](/Practice%20Sets/Set%201/main.md)
-2. [Practice Set 2](/)
+1. [Practice Set 1](/Practice%20Sets/Set%201/README.md)
+2. [Practice Set 2](/Practice%20Sets/Set%202/README.md)
 ### Other
 99. [License](/LICENSE)
 ---
