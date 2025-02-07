@@ -14,6 +14,7 @@ Welcome to my **JavaScript Learning Repository**! This is where I document my jo
 99. [License](/LICENSE)
 ### Practice Sets
 1. [Practice Set 1](/Practice%20Sets/Set%201/main.md)
+2. [Practice Set 2](/)
 ---
 
 ## 💡 Introduction
