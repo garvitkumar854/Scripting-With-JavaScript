@@ -5,11 +5,12 @@
 ### 2. Demonstrate the use of switch case statements in JavaScript ?
 ### 3. Write a Program to find whether a number is Divisible by 2 and 3 ?
 ### 4. Write a Program to find whether a number is Divisible by either 2 or 3 ?
-### 5. Print 
+### 5. Print "You can Drive" or "You Can't Drive" based on age being greater than 18 using Ternary operator ?
 ---
 ## Answers
 - ### [Question 1](/Practice%20Sets/Set%202/ans1.md)
 - ### [Question 2](/Practice%20Sets/Set%202/ans2.md)
 - ### [Question 3](/Practice%20Sets/Set%202/ans3.md)
 - ### [Question 4](/Practice%20Sets/Set%202/ans4.md)
+- ### [Question 5](/Practice%20Sets/Set%202/ans5.md)
 ---
