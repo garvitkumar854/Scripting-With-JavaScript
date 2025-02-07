@@ -18,7 +18,7 @@ Perform Basic Mathematical Calculations
 | `++`     | Increment              | `let x = 5; x++` | `6` |
 | `--`     | Decrement              | `let y = 10; y--` | `9` |
 
-Example:
+### 🔹 Example Code:
 ```js
 let a = 16, b = 4;
 console.log("A + B = ",a+b);
