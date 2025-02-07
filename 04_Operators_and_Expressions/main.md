@@ -47,7 +47,7 @@ x *= 2;  // x = x * 2 → x = 30
 console.log(x); // Output: 30
 ```
 
-### 🔸 Comparison Operators in JavaScript  
+### 🔸 Comparison Operators
 
 Comparison operators are used to compare two values and return a boolean (`true` or `false`).
 
