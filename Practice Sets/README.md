@@ -8,8 +8,8 @@ The **Practice Sets** folder contains a collection of coding exercises designed 
 - 🛠 **Object-Oriented & DOM Manipulation** – Objects, Classes, Events  
 
 ### 📌 **How to Use?**  
-- Open any `.js` file inside the **Practice Sets** folder.  
-- Read the problem statement and try solving it before checking the solution.  
+- Open [`main.md`] file inside the Different Sets in **Practice Sets** folder.  
+- Read the problem statements and try solving it before checking the solution.  
 - Run the code in a browser console or Node.js environment.  
 
 🚀 **Happy Coding!** 💡  
