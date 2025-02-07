@@ -5,7 +5,7 @@ In JavaScript, an operator is a symbol that performs an operation on values or v
 ## 📌 What are Operators ?
 Operators are used to perform operations on variables and values. JavaScript provides different types of operators:
 
-### 🔹 Arithmetic Operators
+### 🔸 Arithmetic Operators
 Perform Basic Mathematical Calculations
 | Operator | Description            | Example  | Result |
 |----------|------------------------|----------|--------|
@@ -26,7 +26,7 @@ console.log("A - B = ",a-b);
 console.log("A ** B = ",a**b);
 ```
 
-### 🔹 Assignment Operators
+### 🔸 Assignment Operators
 Assignment operators are used to assign values to variables.
 
 | Operator | Description                    | Example          | Equivalent To  | Result (if `x = 10`) |
@@ -47,7 +47,7 @@ x *= 2;  // x = x * 2 → x = 30
 console.log(x); // Output: 30
 ```
 
-### 📌 Comparison Operators in JavaScript  
+### 🔸 Comparison Operators in JavaScript  
 
 Comparison operators are used to compare two values and return a boolean (`true` or `false`).
 
@@ -70,7 +70,7 @@ console.log(5 === "5");// false (strict comparison)
 console.log(7 !== "7");// true (strict not equal)
 ```
 
-### 🔹 Logical Operators  
+### 🔸 Logical Operators  
 Logical operators are used to combine multiple conditions and return `true` or `false`.
 
 | Operator | Description                          | Example              | Result  |
@@ -86,7 +86,7 @@ console.log(true || false);  // Output: true
 console.log(!true);          // Output: false
 ```
 
-### 🔹 Bitwise Operators  
+### 🔸 Bitwise Operators  
 Bitwise operators perform operations at the **binary level**.
 
 | Operator | Description               | Example (x = 5, y = 3) | Result  |
@@ -104,7 +104,7 @@ console.log(5 & 3);  // Output: 1
 console.log(5 | 3);  // Output: 7
 ```
 
-### 🔹 Ternary Operator
+### 🔸 Ternary Operator
 The **ternary operator** is a shorthand for `if...else` conditions.  
 
 ### 🔹 Example Code:
