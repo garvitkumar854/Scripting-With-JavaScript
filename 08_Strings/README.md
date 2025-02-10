@@ -7,7 +7,13 @@ Strings in JavaScript are used to store **text data**. They are immutable (canno
 ```js
 let str1 = "Hello, World!";
 let str2 = 'JavaScript is awesome!';
-let str3 = `My name is Garvit`; // Template literal
+```
+### 📌 Template Literals in JavaScript
+Template literals (introduced in ES6) provide a more flexible way to work with strings. They allow multi-line strings, embedded expressions, and string interpolation using backticks (`) instead of single (') or double (") quotes.
+```js
+let name = `Garvit`; // Template literal
+let sentence = `My Name is ${str3}`;
+console.log(sentence);
 ```
 
 ## 2️⃣ String Properties
@@ -71,7 +77,27 @@ console.log(sentence.endsWith("language")); // true
 ```
 
 
+### ⭐ Escape Sequence Characters in JavaScript  
 
+Escape sequence characters in JavaScript are **special characters** used inside strings to represent characters that are difficult or impossible to type directly. They start with a **backslash (`\`)** followed by a specific character.
+
+---
+
+### 📌 Common Escape Sequences  
+
+| Escape Sequence | Description                 | Example Output       |
+|----------------|-----------------------------|----------------------|
+| `\'`          | Single quote                 | `'Hello'`           |
+| `\"`          | Double quote                 | `"JavaScript"`      |
+| `\\`          | Backslash                     | `\`                 |
+| `\n`          | New Line                      | Moves to next line  |
+| `\t`          | Tab Space                     | Adds a tab space    |
+| `\r`          | Carriage Return (rarely used) | Resets line content |
+| `\b`          | Backspace                     | Removes a character |
+| `\f`          | Form Feed                     | Page break (rarely used) |
+
+---
+🚀 **Escape sequences are useful for formatting text inside strings!** 🎯  
 
 
 
