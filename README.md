@@ -11,9 +11,13 @@ Welcome to my **JavaScript Learning Repository**! This is where I document my jo
 3. [Primitives and Objects in JavaScript](/03_Primitives_and_Objects/README.md)
 4. [Operators and Expressions in JavaScript](/04_Operators_and_Expressions/README.md)
 5. [Conditional Expressions](/05_Conditional_Expressions/README.md)
+6. [Loops](/06_Loops/README.md)
+7. [Functions](/07_Functions/README.md)
+8. [Strings](/08_Strings/README.md)
 ### Practice Sets
 1. [Practice Set 1](/Practice%20Sets/Set%201/README.md)
 2. [Practice Set 2](/Practice%20Sets/Set%202/README.md)
+3. [Practice Set 3](/Practice%20Sets/Set%203/README.md)
 ### Other
 99. [License](/LICENSE)
 ---
