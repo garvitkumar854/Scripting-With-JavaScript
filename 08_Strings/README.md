@@ -18,7 +18,7 @@ console.log(text.length); // 10
 ```
 
 ## 3️⃣ String Methods
--🔹 Changing Case
+- 🔹 Changing Case
 ```js
 let word = "Hello";
 console.log(word.toUpperCase()); // "HELLO"
