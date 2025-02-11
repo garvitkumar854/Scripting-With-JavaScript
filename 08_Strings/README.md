@@ -21,6 +21,8 @@ console.log(sentence);
 ```js
 let text = "JavaScript";
 console.log(text.length); // 10
+let word = "Harry\"";
+console.log(word.length); // 6 because \" is 1 character.
 ```
 
 ## 3️⃣ String Methods
@@ -67,6 +69,10 @@ let names = "Alice,Bob,Charlie";
 console.log(names.split(",")); // ["Alice", "Bob", "Charlie"]
 ```
 
+### Quick Quiz
+#### Use a `for` loop to print a string.
+View [Answer](/08_Strings/quiz_Answer.js)
+
 ## 4️⃣ String Searching Methods
 ```js
 let sentence = "JavaScript is a great language";
@@ -75,7 +81,6 @@ console.log(sentence.includes("JavaScript")); // true
 console.log(sentence.startsWith("Java")); // true
 console.log(sentence.endsWith("language")); // true
 ```
-
 
 ### ⭐ Escape Sequence Characters in JavaScript  
 
