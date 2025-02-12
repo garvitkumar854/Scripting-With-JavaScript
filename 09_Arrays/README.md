@@ -41,20 +41,22 @@ nuumbers[1] = 200;                  // Changed 2nd value of 'numbers'
 
 
 ## 🔹 Looping Through an Array
-Using a for loop:
+- Using a for loop:
 ```js
 for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]);
 }
 ```
-Using forEach():
+
+- Using forEach():
 ```js
 let num = [1,2,3,4];
 num.forEach(element) => {
     console.log(element * element);         // Print Square of each Element
 }
 ```
-Array.from()
+
+- Array.from():
 The `Array.from()` method creates a **new array** from an **iterable** or **array-like** object. It allows easy conversion of strings, NodeLists, Sets, Maps, or objects with a `length` property into arrays.
 ```js
 let name = "Aayush";
@@ -62,7 +64,7 @@ let arr = Array.from(name);             // Create array of 'name' string
 console.log(arr);  
 ```
 
-Using for...of():
+- Using for...of():
 ```js
 let num = [1,2,3,4,5];
 for(let i of num){
@@ -71,7 +73,7 @@ for(let i of num){
 // Output: Print all Element of num Array.
 ```
 
-Using for...in():
+- Using for...in():
 ```js
 let num = [-5,95,45,120,2];
 for(let i in num){
