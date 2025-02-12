@@ -3,8 +3,10 @@ An array in JavaScript is a special variable that can hold multiple values in a 
 
 ## ✅ Creating an Array
 ```js
-let fruits = ["Apple", "Banana", "Mango"]; // Array of strings
-let numbers = [10, 20, 30, 40]; // Array of numbers
+let fruits = ["Apple", "Banana", "Mango"];  // Array of strings
+let numbers = [10, 20, 30, 40];             // Array of numbers
+let marks_class_12 = [31, 78, "Absent", 74, 50, "Fail"];        // Array of Student Marks
+console.log(marks_class_12);
 ```
 
 ## 🔹 Accessing Elements
