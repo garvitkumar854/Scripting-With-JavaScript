@@ -14,6 +14,8 @@ Welcome to my **JavaScript Learning Repository**! This is where I document my jo
 6. [Loops](/06_Loops/README.md)
 7. [Functions](/07_Functions/README.md)
 8. [Strings](/08_Strings/README.md)
+9. [Arrays](/)
+
 ### Practice Sets
 1. [Practice Set 1](/Practice%20Sets/Set%201/README.md)
 2. [Practice Set 2](/Practice%20Sets/Set%202/README.md)
