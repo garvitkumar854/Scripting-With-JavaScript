@@ -88,3 +88,39 @@ for(let i in num){
     console.log(num[i]);        // Returns the Elements of Array.
 }
 ```
+
+## Map, Filter & Reduce in JavaScript
+In JavaScript, map(), filter(), and reduce() are higher-order functions used to process and manipulate arrays efficiently.
+
+### 1️⃣ map() – Transforming Elements
+The map() method creates a new array by applying a callback function to each element in an existing array. It does not modify the original array.
+
+#### ✅ Example
+```js
+const numbers = [1, 2, 3, 4, 5];
+let num = numbers.map(value, index, array) => {             // Map has three arguments {value, index, array}
+    console.log(value, index, array);
+}
+const squared = numbers.map(num => num * num);
+console.log(squared); // [1, 4, 9, 16, 25]
+```
+
+### 2️⃣ filter() – Filtering Elements
+The filter() method creates a new array that contains only elements that meet a specified condition (returning true in the callback function).
+
+#### ✅ Example
+```js
+const ages = [12, 18, 20, 14, 25, 30];
+const adults = ages.filter(age => age >= 18);
+console.log(adults); // [18, 20, 25, 30]
+```
+
+### 3️⃣ reduce() – Reducing to a Single Value
+The reduce() method accumulates elements of an array into a single value, such as a sum, product, or concatenated string.
+
+#### ✅ Example
+```js
+const numbers = [1, 2, 3, 4, 5];
+const sum = numbers.reduce((acc, num) => acc + num, 0);
+console.log(sum); // 15
+```
