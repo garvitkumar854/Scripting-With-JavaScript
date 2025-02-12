@@ -7,6 +7,7 @@ let fruits = ["Apple", "Banana", "Mango"];                  // Array of strings
 let numbers = [10, 20, 30, 40];                             // Array of numbers
 let marks_class_12 = [31, 78, "Absent", 74, 50, "Fail"];    // Array of Student Marks
 console.log(marks_class_12);
+console.log(typeof(marks_class_12));                        // Output: object
 ```
 
 ## 🔹 Accessing Elements
