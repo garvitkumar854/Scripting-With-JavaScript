@@ -89,7 +89,7 @@ for(let i in num){
 }
 ```
 
-## Map, Filter & Reduce in JavaScript
+## ⭐ Map, Filter & Reduce in JavaScript
 In JavaScript, map(), filter(), and reduce() are higher-order functions used to process and manipulate arrays efficiently.
 
 ### 1️⃣ map() – Transforming Elements
