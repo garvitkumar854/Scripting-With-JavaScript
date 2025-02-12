@@ -3,18 +3,18 @@ An array in JavaScript is a special variable that can hold multiple values in a 
 
 ## ✅ Creating an Array
 ```js
-let fruits = ["Apple", "Banana", "Mango"];  // Array of strings
-let numbers = [10, 20, 30, 40];             // Array of numbers
-let marks_class_12 = [31, 78, "Absent", 74, 50, "Fail"];        // Array of Student Marks
+let fruits = ["Apple", "Banana", "Mango"];                  // Array of strings
+let numbers = [10, 20, 30, 40];                             // Array of numbers
+let marks_class_12 = [31, 78, "Absent", 74, 50, "Fail"];    // Array of Student Marks
 console.log(marks_class_12);
 ```
 
 ## 🔹 Accessing Elements
 Array elements are accessed using indexing (starting from 0).
 ```js
-console.log(fruits[0]); // Output: Apple
-console.log(numbers[2]); // Output: 30
-console.log(marks_class_12[6])      // Output: 'undefined' {index not exists}
+console.log(fruits[0]);             // Output: Apple
+console.log(numbers[2]);            // Output: 30
+console.log(marks_class_12[6])      // Output: 'undefined' {index not ex}
 ```
 
 ## 🔹 Array Properties & Methods
