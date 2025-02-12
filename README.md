@@ -18,6 +18,7 @@ Welcome to my **JavaScript Learning Repository**! This is where I document my jo
 1. [Practice Set 1](/Practice%20Sets/Set%201/README.md)
 2. [Practice Set 2](/Practice%20Sets/Set%202/README.md)
 3. [Practice Set 3](/Practice%20Sets/Set%203/README.md)
+3. [Practice Set 4](/Practice%20Sets/Set%204/README.md)
 ### Other
 99. [License](/LICENSE)
 ---
