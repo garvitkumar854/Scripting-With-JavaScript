@@ -10,11 +10,12 @@ console.log(marks_class_12);
 ```
 
 ## 🔹 Accessing Elements
-Array elements are accessed using indexing (starting from 0).
+Arrays are Mutable and it's elements are accessed using indexing (starting from 0).
 ```js
 console.log(fruits[0]);             // Output: Apple
 console.log(numbers[2]);            // Output: 30
-console.log(marks_class_12[6])      // Output: 'undefined' {index not ex}
+console.log(marks_class_12[6])      // Output: 'undefined' {index not exists}
+nuumbers[1] = 200;                  // Changed 2nd value of 'numbers'
 ```
 
 ## 🔹 Array Properties & Methods
