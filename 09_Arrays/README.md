@@ -20,16 +20,24 @@ nuumbers[1] = 200;                  // Changed 2nd value of 'numbers'
 ```
 
 ## 🔹 Array Properties & Methods
-| Method              | Description                                 | Example Output |
-|---------------------|---------------------------------------------|---------------|
-| `length`           | Returns the number of elements in an array  | `fruits.length → 3` |
-| `push(value)`      | Adds a new element at the **end**           | `fruits.push("Orange")` |
-| `pop()`            | Removes the **last** element                | `fruits.pop()` |
-| `shift()`          | Removes the **first** element               | `fruits.shift()` |
-| `unshift(value)`   | Adds a new element at the **beginning**     | `fruits.unshift("Grapes")` |
-| `indexOf(value)`   | Returns the index of a value               | `fruits.indexOf("Banana") → 1` |
-| `includes(value)`  | Checks if value exists in array            | `fruits.includes("Mango") → true` |
-| `join(", ")`       | Converts array to a string                 | `"Apple, Banana, Mango"` |
+
+| Method              | Description                                     | Example Output |
+|---------------------|-------------------------------------------------|---------------|
+| `length`           | Returns the number of elements in an array      | `fruits.length → 3` |
+| `push(value)`      | Adds a new element at the **end**               | `fruits.push("Orange")` |
+| `pop()`            | Removes the **last** element                    | `fruits.pop()` |
+| `shift()`          | Removes the **first** element                   | `fruits.shift()` |
+| `unshift(value)`   | Adds a new element at the **beginning**         | `fruits.unshift("Grapes")` |
+| `indexOf(value)`   | Returns the index of a value                   | `fruits.indexOf("Banana") → 1` |
+| `includes(value)`  | Checks if value exists in array                | `fruits.includes("Mango") → true` |
+| `join(", ")`       | Converts array to a string                     | `"Apple, Banana, Mango"` |
+| `toString()`       | Converts array elements into a string           | `fruits.toString() → "Apple,Banana,Mango"` |
+| `delete array[i]`  | Deletes an element but **does not** shift indexes | `delete fruits[1]` (Leaves `undefined`) |
+| `concat(array2)`   | Merges two or more arrays                       | `fruits.concat(["Pineapple", "Grapes"])` |
+| `sort()`           | Sorts an array alphabetically (by default)      | `fruits.sort() → ["Apple", "Banana", "Mango"]` |
+| `splice(start, deleteCount, item1, item2, ...)` | Adds/removes elements from an array | `fruits.splice(1, 1, "Kiwi")` (Replaces 1 item at index 1 with `"Kiwi"`) |
+| `slice(start, end)`| Returns a portion of an array as a new array    | `fruits.slice(1, 3) → ["Banana", "Mango"]` |
+
 
 
 ## 🔹 Looping Through an Array
@@ -41,5 +49,33 @@ for (let i = 0; i < fruits.length; i++) {
 ```
 Using forEach():
 ```js
-fruits.forEach(fruit => console.log(fruit));
+let num = [1,2,3,4];
+num.forEach(element) => {
+    console.log(element * element);         // Print Square of each Element
+}
+```
+Array.from()
+The `Array.from()` method creates a **new array** from an **iterable** or **array-like** object. It allows easy conversion of strings, NodeLists, Sets, Maps, or objects with a `length` property into arrays.
+```js
+let name = "Aayush";
+let arr = Array.from(name);             // Create array of 'name' string
+console.log(arr);  
+```
+
+Using for...of():
+```js
+let num = [1,2,3,4,5];
+for(let i of num){
+    console.lo(i);              
+}
+// Output: Print all Element of num Array.
+```
+
+Using for...in():
+```js
+let num = [-5,95,45,120,2];
+for(let i in num){
+    console.log(i)              // Returns the keys {indexes} of Array
+    console.log(num[i]);        // Returns the Elements of Array.
+}
 ```
