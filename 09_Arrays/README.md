@@ -29,6 +29,7 @@ console.log(marks_class_12[6])      // Output: 'undefined' {index not ex}
 | `includes(value)`  | Checks if value exists in array            | `fruits.includes("Mango") → true` |
 | `join(", ")`       | Converts array to a string                 | `"Apple, Banana, Mango"` |
 
+
 ## 🔹 Looping Through an Array
 Using a for loop:
 ```js
