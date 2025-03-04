@@ -74,7 +74,7 @@ console.log(arr);
 ```js
 let num = [1,2,3,4,5];
 for(let i of num){
-    console.lo(i);              
+    console.log(i);              
 }
 // Output: Print all Element of num Array.
 ```
