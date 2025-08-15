@@ -8,8 +8,6 @@ This repository is my personal **JavaScript learning journey**, but anyone can u
 - [Introduction](/01_Introduction/README.md)
 - [Variables](/02_Variables/README.md)
 - [Datatypes](/03_Datatypes_ECMA_Standards/README.md)
-
-
 - 💡 [Features](#-features)  
 - 🤝 [Contributing](#-contributing)  
 - 📜 [License](#-license)  
